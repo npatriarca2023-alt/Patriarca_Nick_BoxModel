@@ -1,0 +1,147 @@
+/* Page setup */
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Main artwork */
+.artwork {
+    width: 400px;
+    margin: 40px auto;
+}
+
+/* -------------------------
+   TOP GRID
+------------------------- */
+
+.top-grid {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 50px auto;
+    position: relative;
+}
+
+/* All squares */
+.square {
+    position: absolute;
+}
+
+/* Top row */
+.top-left {
+    width: 150px;
+    height: 150px;
+    background-color: #d9b94f;
+    left: 0;
+    top: 0;
+}
+
+.top-right {
+    width: 150px;
+    height: 150px;
+    background-color: #867442;
+    right: 0;
+    top: 0;
+}
+
+/* Middle squares */
+.middle-left {
+    width: 75px;
+    height: 75px;
+    background-color: #a8733d;
+    left: 75px;
+    top: 75px;
+}
+
+.middle-right {
+    width: 75px;
+    height: 75px;
+    background-color: #705832;
+    left: 150px;
+    top: 75px;
+}
+
+/* Bottom row */
+.bottom-left {
+    width: 150px;
+    height: 150px;
+    background-color: #ffc400;
+    left: 0;
+    bottom: 0;
+}
+
+.bottom-right {
+    width: 150px;
+    height: 150px;
+    background-color: #ffd46d;
+    right: 0;
+    bottom: 0;
+}
+
+/* -------------------------
+   BOTTOM GRID
+------------------------- */
+
+.bottom-grid {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+
+/* Large squares */
+.bottom-left-grid {
+    width: 150px;
+    height: 150px;
+    background-color: #a87845;
+    left: 0;
+    top: 0;
+}
+
+.bottom-right-grid {
+    width: 150px;
+    height: 150px;
+    background-color: #755b35;
+    right: 0;
+    top: 0;
+}
+
+/* Middle squares */
+.center-left {
+    width: 75px;
+    height: 75px;
+    background-color: #d2b54f;
+    left: 75px;
+    top: 75px;
+}
+
+.center-right {
+    width: 75px;
+    height: 75px;
+    background-color: #807342;
+    left: 150px;
+    top: 75px;
+}
+
+/* Small center squares */
+.small-left {
+    width: 75px;
+    height: 75px;
+    background-color: #ffb900;
+    left: 75px;
+    bottom: 0;
+}
+
+.small-right {
+    width: 75px;
+    height: 75px;
+    background-color: #ffe080;
+    left: 150px;
+    bottom: 0;
+}

@@ -1,0 +1,146 @@
+/* Page setup */
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Main artwork */
+.artwork {
+    width: 600px;
+    height: 600px;
+    margin: 40px auto;
+    background-color: #f4c900;
+    position: relative;
+    overflow: hidden;
+}
+
+/* -------------------------
+   HORIZONTAL BLUE LINES
+------------------------- */
+
+.horizontal {
+    height: 14px;
+    background-color: #1654b8;
+    position: absolute;
+    right: 0;
+}
+
+/* Each line gets smaller */
+.line1 {
+    width: 560px;
+    top: 20px;
+}
+
+.line2 {
+    width: 530px;
+    top: 55px;
+}
+
+.line3 {
+    width: 500px;
+    top: 90px;
+}
+
+.line4 {
+    width: 470px;
+    top: 125px;
+}
+
+.line5 {
+    width: 440px;
+    top: 160px;
+}
+
+.line6 {
+    width: 410px;
+    top: 195px;
+}
+
+.line7 {
+    width: 380px;
+    top: 230px;
+}
+
+.line8 {
+    width: 350px;
+    top: 265px;
+}
+
+.line9 {
+    width: 320px;
+    top: 300px;
+}
+
+.line10 {
+    width: 290px;
+    top: 335px;
+}
+
+/* -------------------------
+   VERTICAL BLUE LINES
+------------------------- */
+
+.vertical {
+    width: 14px;
+    background-color: #1654b8;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Each line gets shorter */
+.line11 {
+    height: 560px;
+    left: 20px;
+}
+
+.line12 {
+    height: 530px;
+    left: 55px;
+}
+
+.line13 {
+    height: 500px;
+    left: 90px;
+}
+
+.line14 {
+    height: 470px;
+    left: 125px;
+}
+
+.line15 {
+    height: 440px;
+    left: 160px;
+}
+
+.line16 {
+    height: 410px;
+    left: 195px;
+}
+
+.line17 {
+    height: 380px;
+    left: 230px;
+}
+
+.line18 {
+    height: 350px;
+    left: 265px;
+}
+
+.line19 {
+    height: 320px;
+    left: 300px;
+}
+
+.line20 {
+    height: 290px;
+    left: 335px;
+}
